@@ -1,10 +1,10 @@
 # Player-de-Audio-Firebase
- Player de audio usando recursos do firebase
- *Crie um projeto no firebase.
- *preencha os campos com os dados de seu projeto firebase nos arquivos (firebase.js e dadosfirebase.js)
- *ative a autenticação pelo Google e coloque seu domínio de uso
+# Player de audio usando recursos do firebase
+# *Crie um projeto no firebase.
+# *preencha os campos com os dados de seu projeto firebase nos arquivos (firebase.js e dadosfirebase.js)
+# *ative a autenticação pelo Google e coloque seu domínio de uso
  
-#regras do firestore:
+# regras do firestore:
 
 
 rules_version = '2';
@@ -17,7 +17,7 @@ service cloud.firestore {
 }
 
 
-#regras do storage:
+# regras do storage:
 
 rules_version = '2';
 service firebase.storage {
