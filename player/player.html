@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="shortcut icon" href="Image/favicon.png" type="image/x-icon">   
+    <title>Upload Music Play</title>
+</head>
+<body>
+ <div id="card">
+  <h4 id="titulo" translate="no"><i class="material-icons ">audiotrack</i> Upload Music Play</h4>
+  <h6 id="sair">Sair</h6>
+  <div id="fotoperfil"></div>
+        <div id="upload">
+           <div translate="no">
+            <label class="msglabel">Faça Upload de uma Musica
+                <i class="material-icons">backup</i>
+                <input class="msglabel" type="file" accept=".mp3" id="arquivo" name="arquivo">
+            </label>
+            <div class="progress">
+                <progress value="0" class="p-3 determinate" id="progresso"   style="width: 100%"></progress>
+            </div>
+           </div>
+        </div>
+        <div class="card-image">  
+        </div>
+        <div id="musica" >
+          <p id="userupload" >Upload realizado por</p>
+            <p id="title_music">
+                Title Music
+            </p>
+          </div>
+        <div class="containerTempo container">
+            <div class="current_time col s2 tempo">00:00</div>
+            <input type="range" min="0" max="0" class="seek_slider">
+            <div class="total-duration tempo">00:00</div>
+          </div>
+        <div id="containerControles" translate="no">
+            <div>
+              <button class="btn-floating btn-large red" ><i class="material-icons"id="back">skip_previous</i></button>
+          </div>
+              <div>
+             <button class=" btn-floating btn-large red"><i class="material-icons" id="play_pause">play_circle_outline</i></button>
+            </div>
+            <div>
+              <button class="btn-floating btn-large red"><i class="material-icons" id="next">skip_next</i></button>
+          </div>
+        </div>  
+        <footer id="rodape"> <small>&copy; Copyright 2022, Alef Santos</small></footer>  
+ </div>
+ <script src="scripts/dadosfirebase.js"  type="module" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

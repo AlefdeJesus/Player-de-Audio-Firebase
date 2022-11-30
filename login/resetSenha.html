@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleLogin.css">
+    <link rel="stylesheet" href="../materialize/css/materialize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../player/Image/favicon.png" type="image/x-icon">   
+    <title>Resete Senha</title>
+</head>
+<body>
+    <header class="center-align cabecalho">
+        <h3>Resete sua Senha</h3>
+    </header>
+   <div class="container cardFora">
+ <div class="card" >
+		<form name="f3">
+                    <p class="flow-text titulo-input">E-mail:
+                        <input type="email" name="reseteSenha" onblur="validacaoEmailResete(f3.reseteSenha)" id="emailResete" placeholder="backdoor@gmail.com">
+                    </p>
+		</form>			
+                    <div class="center" >
+                        <button  id="enviarResete" class="waves-effect waves-light btn">Enviar</button>
+                    </div>
+ </div>       
+</div>      
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+    <script src="../firebase.js"></script>
+    <script src="resetSenha.js"></script>
+    <script src="../materialize/js/materialize.js"></script>
+</body>
+</html>

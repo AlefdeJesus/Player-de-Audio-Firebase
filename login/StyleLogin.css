@@ -1,0 +1,51 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(65deg,rgb(245, 48, 48),rgb(28, 34, 13));
+}
+html{
+    margin: auto;
+}
+.cabecalho{
+    background-image: linear-gradient(35deg,rgb(39, 21, 21),rgb(250, 131, 33));
+    margin: 10px;
+    padding: 8px;
+}
+.cardFora{
+    background-color: transparent;   
+}
+.titulo-input{
+    color: white;
+}
+.espaco-cadastro{
+    margin-top: 30px;
+}
+#reset-senha{
+	font-size: 18px;
+}
+#title{
+    font-size: 50px;
+}
+#google{
+   background-color:white;
+   border-radius:5px;
+   width:208px;
+   height: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#google label{
+    font-size: 13px;
+    color: black;
+    font-weight: bold; 
+}
+img{
+    width:20px;
+	margin-bottom:-4px;
+}
